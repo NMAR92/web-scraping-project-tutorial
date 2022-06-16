@@ -47,3 +47,4 @@ connection.commit()
 
 for row in cursor.execute("SELECT * FROM revenue"):
     print(row)
+connection.close()    
